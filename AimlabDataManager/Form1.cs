@@ -55,23 +55,18 @@ namespace AimlabDataManager
         private void button1_Click(object sender, EventArgs e)
         {
 
-            string last100 = TxtLast100.Text;
-            string deviation = txtDeviation.Text;
 
-            string showAvg = (lblShowAvg.Text = "");
-            string ShowRecord = (lblShowRecord.Text = "");
-            
-                string selectedTask = comboTasks.SelectedIndex.ToString();
-                c = new MainController(selectedTask ,ref last100, ref deviation, ref showAvg, ref ShowRecord);
 
-         
-               
-        
 
-            TxtLast100.Text = last100;
-            txtDeviation.Text = deviation;
-            lblShowAvg.Text = showAvg;
-            lblShowRecord.Text = ShowRecord;
+
+
+            c = new MainController(comboTasks.SelectedIndex.ToString(), txtLast100.Text, txtDeviation.Text, lblShowAvg.Text, lblShowRecord.Text);
+            c.sarasa();
+
+
+
+
+
 
         }
 

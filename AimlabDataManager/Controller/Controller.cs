@@ -11,6 +11,8 @@ namespace AimlabDataManager.Controller
     class MainController
     {
         public string search = Utils.GetTasksJsonFromFile();
+        
+       
     
         public string selectedTask;
         public string last100;
@@ -18,8 +20,8 @@ namespace AimlabDataManager.Controller
         public string showAvg;
         public string showRecord;
 
-        public MainController( string selecedTask, ref string last100, 
-            ref string deviation,ref  string showAvg, ref string showRecord)
+        public MainController( string selecedTask,  string last100, 
+             string deviation,  string showAvg,  string showRecord)
         {
        
             this.last100 = last100;
@@ -29,7 +31,10 @@ namespace AimlabDataManager.Controller
             Console.WriteLine("constructor ok");
            
         }
-
+        public void sarasa()
+        {
+            Utils.DeserializaJsonFile(search);
+        }
         public string getLasts100(string search)
         {
             JsonTextReader reader = new JsonTextReader(new StringReader(search));
@@ -41,11 +46,5 @@ namespace AimlabDataManager.Controller
         }
 
 
-        //public MainController(string selectedTask, ref string last100 , 
-        //    ref string deviation, ref  string showAvg, ref  string showRecord)
-        //{
-
-
-        //}
     }
 }

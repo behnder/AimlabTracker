@@ -35,7 +35,7 @@ namespace AimlabDataManager
             this.lblRecord = new System.Windows.Forms.Label();
             this.lblLast100 = new System.Windows.Forms.Label();
             this.lblAvg = new System.Windows.Forms.Label();
-            this.TxtLast100 = new System.Windows.Forms.TextBox();
+            this.txtLast100 = new System.Windows.Forms.TextBox();
             this.txtDeviation = new System.Windows.Forms.TextBox();
             this.lvlDeviation = new System.Windows.Forms.Label();
             this.lblShowAvg = new System.Windows.Forms.Label();
@@ -111,15 +111,15 @@ namespace AimlabDataManager
             this.lblAvg.TabIndex = 4;
             this.lblAvg.Text = "Avg";
             // 
-            // TxtLast100
+            // txtLast100
             // 
-            this.TxtLast100.Font = new System.Drawing.Font("Poppins", 6F);
-            this.TxtLast100.Location = new System.Drawing.Point(30, 154);
-            this.TxtLast100.Multiline = true;
-            this.TxtLast100.Name = "TxtLast100";
-            this.TxtLast100.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
-            this.TxtLast100.Size = new System.Drawing.Size(68, 472);
-            this.TxtLast100.TabIndex = 5;
+            this.txtLast100.Font = new System.Drawing.Font("Poppins", 6F);
+            this.txtLast100.Location = new System.Drawing.Point(30, 154);
+            this.txtLast100.Multiline = true;
+            this.txtLast100.Name = "txtLast100";
+            this.txtLast100.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.txtLast100.Size = new System.Drawing.Size(68, 472);
+            this.txtLast100.TabIndex = 5;
             // 
             // txtDeviation
             // 
@@ -149,9 +149,9 @@ namespace AimlabDataManager
             this.lblShowAvg.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblShowAvg.Location = new System.Drawing.Point(393, 52);
             this.lblShowAvg.Name = "lblShowAvg";
-            this.lblShowAvg.Size = new System.Drawing.Size(89, 28);
+            this.lblShowAvg.Size = new System.Drawing.Size(30, 28);
             this.lblShowAvg.TabIndex = 8;
-            this.lblShowAvg.Text = "Show Avg";
+            this.lblShowAvg.Text = "--";
             // 
             // lblShowRecord
             // 
@@ -159,9 +159,9 @@ namespace AimlabDataManager
             this.lblShowRecord.Font = new System.Drawing.Font("Poppins", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblShowRecord.Location = new System.Drawing.Point(576, 50);
             this.lblShowRecord.Name = "lblShowRecord";
-            this.lblShowRecord.Size = new System.Drawing.Size(115, 28);
+            this.lblShowRecord.Size = new System.Drawing.Size(30, 28);
             this.lblShowRecord.TabIndex = 9;
-            this.lblShowRecord.Text = "Show Record";
+            this.lblShowRecord.Text = "--";
             // 
             // btnSearch
             // 
@@ -209,7 +209,7 @@ namespace AimlabDataManager
             this.Controls.Add(this.lblShowAvg);
             this.Controls.Add(this.txtDeviation);
             this.Controls.Add(this.lvlDeviation);
-            this.Controls.Add(this.TxtLast100);
+            this.Controls.Add(this.txtLast100);
             this.Controls.Add(this.lblAvg);
             this.Controls.Add(this.lblLast100);
             this.Controls.Add(this.lblRecord);
@@ -231,7 +231,7 @@ namespace AimlabDataManager
         private System.Windows.Forms.Label lblRecord;
         private System.Windows.Forms.Label lblLast100;
         private System.Windows.Forms.Label lblAvg;
-        private System.Windows.Forms.TextBox TxtLast100;
+        private System.Windows.Forms.TextBox txtLast100;
         private System.Windows.Forms.TextBox txtDeviation;
         private System.Windows.Forms.Label lvlDeviation;
         private System.Windows.Forms.Label lblShowAvg;

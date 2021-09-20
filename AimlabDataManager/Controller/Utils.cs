@@ -23,12 +23,19 @@ namespace AimlabDataManager.Controller
             return tasks;
         }
 
-        public static void JsonReader(string tasksFromJsonFile)
+        public static void DeserializaJsonFile(string tasksFromJsonFile)
         {
-            JsonTextReader reader = new JsonTextReader(new StringReader(tasksFromJsonFile));
+            var tasks = JsonConvert.DeserializeObject<List<Task>>(tasksFromJsonFile);
+
+        }
+
+        //public static void JsonReader(string tasksFromJsonFile)
+        //{
+           
+        //    JsonTextReader reader = new JsonTextReader(new StringReader(tasksFromJsonFile));
 
             
 
-        }
+        //}
     }
 }
