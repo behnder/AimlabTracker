@@ -1,0 +1,13 @@
+E:\unity\AimlabDataManager\AimlabDataManager\bin\Debug\AimlabDataManager.exe.config
+E:\unity\AimlabDataManager\AimlabDataManager\bin\Debug\AimlabDataManager.exe
+E:\unity\AimlabDataManager\AimlabDataManager\bin\Debug\AimlabDataManager.pdb
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.csproj.AssemblyReference.cache
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.Properties.Resources.resources
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.csproj.GenerateResource.cache
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.csproj.CoreCompileInputs.cache
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.exe
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.pdb
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.frmMain.resources
+E:\unity\AimlabDataManager\AimlabDataManager\bin\Debug\Newtonsoft.Json.dll
+E:\unity\AimlabDataManager\AimlabDataManager\bin\Debug\Newtonsoft.Json.xml
+E:\unity\AimlabDataManager\AimlabDataManager\obj\Debug\AimlabDataManager.csproj.CopyComplete
